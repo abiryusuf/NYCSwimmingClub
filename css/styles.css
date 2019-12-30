@@ -1,0 +1,567 @@
+/* Style sheet created by: Student's First Name : Abir Last Name: Yusuf Today's Date: 03/5/2019 */
+/**/
+body {
+	background-color: #FF6600;
+	background: #FF6600;
+	background: url(classes.jpg);
+}
+
+ ul li a:hover{
+ background-color: black;
+ }
+ 
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: blod;
+	
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+.loginbox input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	display: block;
+}
+.login{
+	margin-top: 2em;
+	padding:0.5;
+}
+
+.connect {
+	font-size: .90em;
+	text-align: center;
+	margin-top: 2em;
+	max-width: 100%
+
+}
+
+
+img {
+	max-width: 100%
+	
+}
+
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+header {
+	margin-top: 0.2em;
+	text-align: center;
+	background-color: #F0D8D1;
+	border-radius: 0.5em;
+	
+	
+}
+
+.nav{
+	font-size: 0.5em;
+}
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -0.5em;
+	
+}
+	
+
+nav ul {
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-radius:20px;
+	border-top: 5px;
+	border-bottom: 5px;
+	
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+}
+
+nav li {
+	background-color: #FF6600; 
+	border-radius: 1.25em; 
+	list-style-type: none; 
+	margin:0.5em;
+	padding:0.5em;
+	
+}
+
+
+nav li a { 
+	color:  #FFFFFF;
+	text-decoration: none; 
+}
+
+
+.mobile {
+	display: inline;
+}
+
+
+
+.desktop {
+	display: none;
+}
+
+
+main {
+	display: block;
+	font-family: New Roman, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+}
+
+
+main a {
+	background-color: #9D9D93;
+	border-radius: 1em;
+	color: #F0D8D1;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+}	
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+	
+}
+
+
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.tablet {
+	display: none;
+}
+
+
+.equip {
+	display: none;
+}
+
+
+aside {
+	font-style: italic;
+}
+
+
+input, select, textarea { 
+    display: block;
+	margin-bottom: 1em;
+}
+
+
+label {
+	display: block;
+}
+
+
+form ul {
+	list-style-type: none;
+}
+
+
+.chkbx {
+	display: inline-block;
+}
+
+
+.video{
+	padding: 1em;
+	text-align: center;
+}
+@media only screen and (min-width: 660px) {
+	video{
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%
+}
+
+nav li {
+	display: inline;
+	float: center;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 20%;
+	white-space: nowrap;
+	border-radius: 1.25em;
+	background-color: transparent;
+}
+
+
+main {
+	clear: left;
+	margin-top: -0.3em;
+	border-radius: 0;
+	overflow: auto;
+}
+
+
+.mobile {
+	display: none;
+}
+
+
+.desktop {
+	display: inline;
+}
+
+.equip {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.items	{
+	display: block;
+	list-style-position: inside;
+}
+
+
+.tablet {
+	display: block;
+	margin-top: -3em;
+	margin-bottom: -1em;
+}
+
+
+dt	{
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+figure img {
+	background-color: #1D1D1C;
+	display: inline;
+	height: 8em;
+	width: 28%;
+	margin: 1%;
+	padding: 1%;
+}
+
+
+figure a {
+	background-color: transparent;
+	padding: 0;
+	text-decoration: none;
+}
+
+
+
+
+
+.contact {
+	background-color: transparent;
+	color: #1D1D1C;
+	padding: 0;
+	text-decoration: underline;
+	
+}
+
+
+article {
+	background-color:#808080 ;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 30%;
+}
+
+
+main article img {
+	border: solid 0.1em #1D1D1C;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+main article p {
+	color: #000000;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: left;
+}
+
+
+main article ul {
+	text-align: left;
+}
+
+
+aside {
+	background-color: #FFFFFF;
+	border-radius: 2em 2em 2em 2em;
+	box-shadow: 1em 1em 1em #4C4F4D;
+	padding: 1em;
+	margin: 1em;	
+}
+
+
+table {
+	border: 0.1em solid #808080;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+th, td {
+	border: 0.1em solid #808080;
+	padding: 1em;
+}
+
+
+th {
+	background-color: #808080;
+	color: #FFFFFF;
+}
+
+
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+lebel {
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 10em;
+}
+
+
+.btn {
+	margin-left: 12em;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 830px) {
+ 
+
+
+#container {
+	color: red;
+	
+}
+
+header {
+	text-align: left;
+}
+
+
+nav ul {
+    margin: 2;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+nav li {
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 20%;
+}
+
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+	text-shadow: 0.2em 0.1em #3D3D35;
+}
+
+ 
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+
+
+
+
+main {
+	background-color: #1D1D1C;
+}
+
+
+main p {
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+
+h1 {
+	color: #FFFFFF;
+}
+
+
+figure img {
+	height: 15em;
+	opacity: 0.7;
+}
+
+
+figure img:hover {
+	opacity: .8;
+}
+
+
+body {
+	background-color: #FFFFFF;
+}
+
+
+footer {
+	background-color: #2A2A2A;
+	margin-top: -0.2em;
+	padding: 2em;
+}
+
+
+
+main h2 {
+	color: #FFFFFF;
+}
+
+
+.contact {
+	color: #FFFFFF;
+}
+
+main article h2 {
+	color: #000000;
+}
+
+
+table {
+	background-color: #FFFFFF;
+	width: 85%;
+}
+
+
+caption {
+	color: #FFFFFF;
+}
+
+
+form{
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+
+
+form p {
+	color: #000000;
+}
+.video{
+	padding: 1em;
+	text-align: center;
+}
+
+video{
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%;
+}
+.class-img{
+	width: 1940px;
+	height: 500px;
+}
+.Home-img{
+	width: 1940px;
+	height:400px;
+}
+.logo-img{
+	weight:90px;
+	height:90px;
+}
+
+.membership-img{
+	width: 1940px;
+	height:400px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url(classes.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	padding:90px 60px;
+}
+.loginbox{
+	width:320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding:70px 30px;
+	
+
+}
+.img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left:calc(50% - 50px);
+}
+h3{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
