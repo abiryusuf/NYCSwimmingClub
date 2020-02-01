@@ -47,6 +47,8 @@ NYC Swimming Club!</h2>
 		
 			
 		<form>
+			<fieldset>
+				<legend>Customer information</legend>
 			<label for="fName">First Name:</label>
 			<input type="text" name="fName" id="fName">
 			
@@ -58,15 +60,17 @@ NYC Swimming Club!</h2>
 			
 			<label for="phone">Phone:</label>
 			<input type="tel" id="phone" name="phone">
-			
-			<p>Please Select:</p>
+			</fieldset>
+			<fieldset>
+				
+			<legend>Please Select:</legend>
 			<ul>
 				<li><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbx">General Fitness Conditioning</li>
 				<li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Personal Training</li>
 				<li><input type="checkbox" name="nutr" id="skill" value="skill" class="chkbx">Improving Swimming Skills</li>
 				<li><input type="checkbox" name="nutr" id="skill" value="skill" class="chkbx">Special Class for Kids</li>
 			</ul>
-			
+			</fieldset>
 			<label for="reference">Referral Source:</label>
 			<select name="reference" id="reference">
 				<option value="ad">Advertisement</option>

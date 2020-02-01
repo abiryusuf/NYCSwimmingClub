@@ -565,8 +565,9 @@ h3{
 	font-size: 22px;
 }
 #container{
-	animation-name: colorful;
+ animation-name: colorful;
  animation-duration: 4s;
+ animation-fill-mode: forwards;
 
   }
   @keyframes colorful{
@@ -577,7 +578,7 @@ h3{
 background-color: green;
     }
     100%{
-      background-color: yellow;
+      background-color:orange;
     }
 }
 
